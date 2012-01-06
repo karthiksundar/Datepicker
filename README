@@ -1,2 +1,12 @@
 This folder will contain plugins created using JQuery
 
+The plugin for datepicker is added in the same path with the name datepicker.js.
+
+The js file contains JQuery code for creating a date picker. The date picker allows selection of a particular date 
+by clicking on year, month and day. It also allows entering the date by typing directly. 
+
+The code to be called in the javascript for creating this date picker  is 
+
+$(X).touchDate();
+
+where X is the HTML selector of the parent in which the date picker is to be added.
